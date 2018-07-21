@@ -61,7 +61,7 @@ describe('boardMembers', function() {
 describe('Ceo class', function() {
   let ceo
   let polishedBoardMember
-  
+
   before(() => {
     ceo = new Ceo("Mr. Ceo", "South Carolina", "business")
     polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
